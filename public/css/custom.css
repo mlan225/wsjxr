@@ -1,0 +1,61 @@
+.page-heading {
+  width: 100%;
+}
+
+.page-heading .heading-text {
+  padding: 50px;
+  text-align: center;
+}
+
+.sync-status {
+  padding: 0 0 50px 0;
+  text-align: center;
+  position: relative;
+}
+
+.wrap-login100 {
+  padding: 50px;
+}
+
+@media(max-width: 992px) {
+  .wrap-login100 {
+    padding: 50px 100px;
+  }
+}
+
+.login100-form-btn {
+  width: 50%;
+  margin: auto;
+}
+
+.sync-status span i:before{
+  position: absolute;
+  font-size: 180px;
+  right: 0;
+  top: -51px;
+  opacity: .3;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sync-status span.success i:before {
+  color: darkgreen;
+}
+
+.sync-status span.failure i:before {
+  color: darkred;
+}
+
+.view-sheet-btn {
+  padding-bottom: 25px;
+}
+
+.table-body {
+  margin: auto;
+}
+
+.table tbody tr:nth-child(-n+2) td{
+  background: #FFF;
+  border: 0;
+}
